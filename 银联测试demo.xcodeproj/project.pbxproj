@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86050AE61BE1EC2400BCDA3E /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86050AE31BE1EC2400BCDA3E /* libUPPayPlugin.a */; };
+		86050AE81BE1EDA300BCDA3E /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86050AE71BE1EDA300BCDA3E /* libstdc++.6.dylib */; };
+		8691C73B1B93F5510020A087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C73A1B93F5510020A087 /* main.m */; };
+		8691C73E1B93F5510020A087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C73D1B93F5510020A087 /* AppDelegate.m */; };
+		8691C7411B93F5510020A087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7401B93F5510020A087 /* ViewController.m */; };
+		8691C7441B93F5510020A087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8691C7421B93F5510020A087 /* Main.storyboard */; };
+		8691C7461B93F5510020A087 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8691C7451B93F5510020A087 /* Images.xcassets */; };
+		8691C7491B93F5510020A087 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8691C7471B93F5510020A087 /* LaunchScreen.xib */; };
+		8691C7551B93F5510020A087 /* ____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7541B93F5510020A087 /* ____demoTests.m */; };
+		8691C7771B93F7C60020A087 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7651B93F7C60020A087 /* AFHTTPRequestOperation.m */; };
+		8691C7781B93F7C60020A087 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7671B93F7C60020A087 /* AFHTTPRequestOperationManager.m */; };
+		8691C7791B93F7C60020A087 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7691B93F7C60020A087 /* AFHTTPSessionManager.m */; };
+		8691C77A1B93F7C60020A087 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C76C1B93F7C60020A087 /* AFNetworkReachabilityManager.m */; };
+		8691C77B1B93F7C60020A087 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C76E1B93F7C60020A087 /* AFSecurityPolicy.m */; };
+		8691C77C1B93F7C60020A087 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7701B93F7C60020A087 /* AFURLConnectionOperation.m */; };
+		8691C77D1B93F7C60020A087 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7721B93F7C60020A087 /* AFURLRequestSerialization.m */; };
+		8691C77E1B93F7C60020A087 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7741B93F7C60020A087 /* AFURLResponseSerialization.m */; };
+		8691C77F1B93F7C60020A087 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691C7761B93F7C60020A087 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8691C74F1B93F5510020A087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8691C72D1B93F5510020A087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8691C7341B93F5510020A087;
+			remoteInfo = "银联测试demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86050AE31BE1EC2400BCDA3E /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPPayPlugin.a; sourceTree = "<group>"; };
+		86050AE41BE1EC2400BCDA3E /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPlugin.h; sourceTree = "<group>"; };
+		86050AE51BE1EC2400BCDA3E /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPluginDelegate.h; sourceTree = "<group>"; };
+		86050AE71BE1EDA300BCDA3E /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		8691C7351B93F5510020A087 /* 银联测试demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "银联测试demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8691C7391B93F5510020A087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8691C73A1B93F5510020A087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8691C73C1B93F5510020A087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8691C73D1B93F5510020A087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8691C73F1B93F5510020A087 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8691C7401B93F5510020A087 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8691C7431B93F5510020A087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8691C7451B93F5510020A087 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8691C7481B93F5510020A087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8691C74E1B93F5510020A087 /* 银联测试demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "银联测试demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8691C7531B93F5510020A087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8691C7541B93F5510020A087 /* ____demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demoTests.m"; sourceTree = "<group>"; };
+		8691C7641B93F7C60020A087 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		8691C7651B93F7C60020A087 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		8691C7661B93F7C60020A087 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		8691C7671B93F7C60020A087 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		8691C7681B93F7C60020A087 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8691C7691B93F7C60020A087 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		8691C76A1B93F7C60020A087 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		8691C76B1B93F7C60020A087 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		8691C76C1B93F7C60020A087 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		8691C76D1B93F7C60020A087 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		8691C76E1B93F7C60020A087 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		8691C76F1B93F7C60020A087 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		8691C7701B93F7C60020A087 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		8691C7711B93F7C60020A087 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		8691C7721B93F7C60020A087 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		8691C7731B93F7C60020A087 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		8691C7741B93F7C60020A087 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		8691C7751B93F7C60020A087 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		8691C7761B93F7C60020A087 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8691C7321B93F5510020A087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86050AE81BE1EDA300BCDA3E /* libstdc++.6.dylib in Frameworks */,
+				86050AE61BE1EC2400BCDA3E /* libUPPayPlugin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8691C74B1B93F5510020A087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86050AE21BE1EC2400BCDA3E /* UpPay(银联) */ = {
+			isa = PBXGroup;
+			children = (
+				86050AE31BE1EC2400BCDA3E /* libUPPayPlugin.a */,
+				86050AE41BE1EC2400BCDA3E /* UPPayPlugin.h */,
+				86050AE51BE1EC2400BCDA3E /* UPPayPluginDelegate.h */,
+			);
+			path = "UpPay(银联)";
+			sourceTree = "<group>";
+		};
+		8691C72C1B93F5510020A087 = {
+			isa = PBXGroup;
+			children = (
+				86050AE71BE1EDA300BCDA3E /* libstdc++.6.dylib */,
+				8691C7371B93F5510020A087 /* 银联测试demo */,
+				8691C7511B93F5510020A087 /* 银联测试demoTests */,
+				8691C7361B93F5510020A087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8691C7361B93F5510020A087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8691C7351B93F5510020A087 /* 银联测试demo.app */,
+				8691C74E1B93F5510020A087 /* 银联测试demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8691C7371B93F5510020A087 /* 银联测试demo */ = {
+			isa = PBXGroup;
+			children = (
+				86050AE21BE1EC2400BCDA3E /* UpPay(银联) */,
+				8691C73C1B93F5510020A087 /* AppDelegate.h */,
+				8691C73D1B93F5510020A087 /* AppDelegate.m */,
+				8691C73F1B93F5510020A087 /* ViewController.h */,
+				8691C7401B93F5510020A087 /* ViewController.m */,
+				8691C7421B93F5510020A087 /* Main.storyboard */,
+				8691C7451B93F5510020A087 /* Images.xcassets */,
+				8691C7471B93F5510020A087 /* LaunchScreen.xib */,
+				8691C7631B93F7C60020A087 /* AFNetworking */,
+				8691C7381B93F5510020A087 /* Supporting Files */,
+			);
+			path = "银联测试demo";
+			sourceTree = "<group>";
+		};
+		8691C7381B93F5510020A087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8691C7391B93F5510020A087 /* Info.plist */,
+				8691C73A1B93F5510020A087 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8691C7511B93F5510020A087 /* 银联测试demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8691C7541B93F5510020A087 /* ____demoTests.m */,
+				8691C7521B93F5510020A087 /* Supporting Files */,
+			);
+			path = "银联测试demoTests";
+			sourceTree = "<group>";
+		};
+		8691C7521B93F5510020A087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8691C7531B93F5510020A087 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8691C7631B93F7C60020A087 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8691C7641B93F7C60020A087 /* AFHTTPRequestOperation.h */,
+				8691C7651B93F7C60020A087 /* AFHTTPRequestOperation.m */,
+				8691C7661B93F7C60020A087 /* AFHTTPRequestOperationManager.h */,
+				8691C7671B93F7C60020A087 /* AFHTTPRequestOperationManager.m */,
+				8691C7681B93F7C60020A087 /* AFHTTPSessionManager.h */,
+				8691C7691B93F7C60020A087 /* AFHTTPSessionManager.m */,
+				8691C76A1B93F7C60020A087 /* AFNetworking.h */,
+				8691C76B1B93F7C60020A087 /* AFNetworkReachabilityManager.h */,
+				8691C76C1B93F7C60020A087 /* AFNetworkReachabilityManager.m */,
+				8691C76D1B93F7C60020A087 /* AFSecurityPolicy.h */,
+				8691C76E1B93F7C60020A087 /* AFSecurityPolicy.m */,
+				8691C76F1B93F7C60020A087 /* AFURLConnectionOperation.h */,
+				8691C7701B93F7C60020A087 /* AFURLConnectionOperation.m */,
+				8691C7711B93F7C60020A087 /* AFURLRequestSerialization.h */,
+				8691C7721B93F7C60020A087 /* AFURLRequestSerialization.m */,
+				8691C7731B93F7C60020A087 /* AFURLResponseSerialization.h */,
+				8691C7741B93F7C60020A087 /* AFURLResponseSerialization.m */,
+				8691C7751B93F7C60020A087 /* AFURLSessionManager.h */,
+				8691C7761B93F7C60020A087 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8691C7341B93F5510020A087 /* 银联测试demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8691C7581B93F5510020A087 /* Build configuration list for PBXNativeTarget "银联测试demo" */;
+			buildPhases = (
+				8691C7311B93F5510020A087 /* Sources */,
+				8691C7321B93F5510020A087 /* Frameworks */,
+				8691C7331B93F5510020A087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "银联测试demo";
+			productName = "银联测试demo";
+			productReference = 8691C7351B93F5510020A087 /* 银联测试demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8691C74D1B93F5510020A087 /* 银联测试demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8691C75B1B93F5510020A087 /* Build configuration list for PBXNativeTarget "银联测试demoTests" */;
+			buildPhases = (
+				8691C74A1B93F5510020A087 /* Sources */,
+				8691C74B1B93F5510020A087 /* Frameworks */,
+				8691C74C1B93F5510020A087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8691C7501B93F5510020A087 /* PBXTargetDependency */,
+			);
+			name = "银联测试demoTests";
+			productName = "银联测试demoTests";
+			productReference = 8691C74E1B93F5510020A087 /* 银联测试demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8691C72D1B93F5510020A087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = LP;
+				TargetAttributes = {
+					8691C7341B93F5510020A087 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8691C74D1B93F5510020A087 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8691C7341B93F5510020A087;
+					};
+				};
+			};
+			buildConfigurationList = 8691C7301B93F5510020A087 /* Build configuration list for PBXProject "银联测试demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8691C72C1B93F5510020A087;
+			productRefGroup = 8691C7361B93F5510020A087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8691C7341B93F5510020A087 /* 银联测试demo */,
+				8691C74D1B93F5510020A087 /* 银联测试demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8691C7331B93F5510020A087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8691C7441B93F5510020A087 /* Main.storyboard in Resources */,
+				8691C7491B93F5510020A087 /* LaunchScreen.xib in Resources */,
+				8691C7461B93F5510020A087 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8691C74C1B93F5510020A087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8691C7311B93F5510020A087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8691C7771B93F7C60020A087 /* AFHTTPRequestOperation.m in Sources */,
+				8691C7411B93F5510020A087 /* ViewController.m in Sources */,
+				8691C7781B93F7C60020A087 /* AFHTTPRequestOperationManager.m in Sources */,
+				8691C77A1B93F7C60020A087 /* AFNetworkReachabilityManager.m in Sources */,
+				8691C77E1B93F7C60020A087 /* AFURLResponseSerialization.m in Sources */,
+				8691C77C1B93F7C60020A087 /* AFURLConnectionOperation.m in Sources */,
+				8691C77B1B93F7C60020A087 /* AFSecurityPolicy.m in Sources */,
+				8691C7791B93F7C60020A087 /* AFHTTPSessionManager.m in Sources */,
+				8691C77D1B93F7C60020A087 /* AFURLRequestSerialization.m in Sources */,
+				8691C77F1B93F7C60020A087 /* AFURLSessionManager.m in Sources */,
+				8691C73E1B93F5510020A087 /* AppDelegate.m in Sources */,
+				8691C73B1B93F5510020A087 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8691C74A1B93F5510020A087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8691C7551B93F5510020A087 /* ____demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8691C7501B93F5510020A087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8691C7341B93F5510020A087 /* 银联测试demo */;
+			targetProxy = 8691C74F1B93F5510020A087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8691C7421B93F5510020A087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8691C7431B93F5510020A087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8691C7471B93F5510020A087 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8691C7481B93F5510020A087 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8691C7561B93F5510020A087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8691C7571B93F5510020A087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8691C7591B93F5510020A087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "银联测试demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/银联测试demo/UpPay(银联)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8691C75A1B93F5510020A087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "银联测试demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/银联测试demo/UpPay(银联)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8691C75C1B93F5510020A087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "银联测试demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/银联测试demo.app/银联测试demo";
+			};
+			name = Debug;
+		};
+		8691C75D1B93F5510020A087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "银联测试demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/银联测试demo.app/银联测试demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8691C7301B93F5510020A087 /* Build configuration list for PBXProject "银联测试demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8691C7561B93F5510020A087 /* Debug */,
+				8691C7571B93F5510020A087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8691C7581B93F5510020A087 /* Build configuration list for PBXNativeTarget "银联测试demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8691C7591B93F5510020A087 /* Debug */,
+				8691C75A1B93F5510020A087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8691C75B1B93F5510020A087 /* Build configuration list for PBXNativeTarget "银联测试demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8691C75C1B93F5510020A087 /* Debug */,
+				8691C75D1B93F5510020A087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8691C72D1B93F5510020A087 /* Project object */;
+}
